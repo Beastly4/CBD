@@ -846,13 +846,16 @@
             transition-duration: 0.4s;
             cursor: pointer;
 
+            &:hover {
+                color: darken(#6e774a, 50%);
+                margin: 0 60px 0 0;
+            }
+
             @media screen and (max-width: 964px) {
                 order: 3;
             }
 
-            &:hover {
-                color: darken(#6e774a, 50%);
-            }
+            
         }
     }
 
